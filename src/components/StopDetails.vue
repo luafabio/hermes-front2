@@ -56,7 +56,7 @@ export default {
       this.$router.push({path: '/', query: {alert: 'Stop Deleted'}});
      }
   },
-  created: function(id) {
+  created: function() {
      this.fetchStop(this.$route.params.id)
   }
 }

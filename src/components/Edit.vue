@@ -68,7 +68,6 @@ const BASE_URL = 'http://ec2-18-219-95-88.us-east-2.compute.amazonaws.com:3000/'
          } else if(isNaN(this.stop.long)) {
            this.alert = 'Please enter a valid number in Longitude';
          } else if(!Number.isInteger(parseInt(this.stop.num_stop))) {
-           console.log(this.stop.num_stop);
            this.alert = 'Please enter a valid number in Stop Number';
          } else if(parseInt(this.stop.num_stop) < 0) { 
            this.alert = 'Please enter a positive number in Stop Number';
